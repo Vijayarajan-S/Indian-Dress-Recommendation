@@ -1,0 +1,61 @@
+.navbar {
+   margin-top: auto; /* Reduced margin for better positioning */
+   width: 1500px; /* Set the width to 85% */
+   margin-left: 40px; /* Center the navbar horizontally */
+   margin-right: 40px; /* Center the navbar horizontally */
+   display: flex;
+   justify-content: space-between;
+   padding: 16px 30px; /* More padding for spacious layout */
+   background-color: #ffffff; /* White background for clean look */
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+   border-radius: 8px; /* Rounded corners */
+   position:fixed;
+}
+
+.nav-logo {
+   display: flex;
+   align-items: center;
+   color: #171717;
+   font-size: 28px; /* Adjusted size for logo */
+   font-weight: 600;
+}
+
+.nav-logo p{
+   color: #ff4141;
+}
+.nav-menu {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   color: #626262;
+   font-size: 18px; /* Slightly smaller font for menu */
+   gap: 30px; /* Increased gap for better spacing */
+}
+
+.nav-menu li {
+   position: relative; /* For positioning the active state underline */
+}
+
+.li-tag {
+   text-decoration: none;
+   color: #626262; /* Default link color */
+   transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.li-tag:hover {
+   color: #ff4141; /* Change color on hover */
+}
+
+.active {
+   color: #ff4141; /* Color for active link */
+}
+
+.active::after {
+   content: '';
+   display: block;
+   height: 3px;
+   background: #ff4141; /* Underline color */
+   border-radius: 2px; /* Rounded underline */
+   margin-top: 5px; /* Space above the underline */
+   width: 100%; /* Full width underline */
+}

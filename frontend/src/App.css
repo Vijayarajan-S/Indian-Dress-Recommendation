@@ -1,0 +1,23 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+
+  
+  .Footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+  }
+  
+  .main-content {
+    flex: 1; /* Fills the remaining space between Navbar and Footer */
+    padding: 20px;
+  }
+  

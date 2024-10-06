@@ -1,0 +1,121 @@
+/* Imageupload.css */
+
+/* Center the form */
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  width: 350px; /* Slightly wider form */
+  margin: 200px auto; /* Center the form on the page */
+}
+
+/* Style for the input fields */
+input,
+select {
+  margin-bottom: 15px;
+  padding: 12px; /* Slightly increased padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s; /* Smooth transition for focus effect */
+}
+
+/* Change border color on focus */
+input:focus,
+select:focus {
+  border-color: #007bff; /* Change to primary color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+button {
+  padding: 12px; /* Increased padding for a better click area */
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: tomato;
+}
+
+/* Label styling */
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Recommendation section */
+.recommendation {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Wrap items */
+  justify-content: space-between; /* Space between items */
+  gap: 20px; /* Space between items */
+}
+
+/* Individual recommendation item */
+.recommendation-item {
+  display: inline-block;
+  margin: 25px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0; /* Light border for separation */
+  width: 50%;
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside each item */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center; /* Center content */
+  transition: transform 0.2s; /* Animation effect on hover */
+}
+
+/* Image styling */
+.recommendation-item img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners */
+  margin-bottom: 10px; /* Space below the image */
+}
+
+/* Headings inside recommendation items */
+.recommendation-item h6 {
+  margin: 5px 0; /* Space above and below headings */
+  font-size: 14px; /* Font size for headings */
+  color: #333; /* Darker text for better readability */
+}
+
+/* Hover effect for recommendation items */
+.recommendation-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rwgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Message for no recommendations */
+.recommendation span {
+  text-align: start;
+  font-weight: bold; /* Bold text for emphasis */
+  color: #ff0000; /* Red color for alert */
+}
+
+img {
+  height: 500px;
+  width: 450px;
+  display: inline;
+}
+
+.recommendation .image {
+  display: inline-block;
+}
+.recommendation .details {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 0px;
+  text-align: left;
+}
