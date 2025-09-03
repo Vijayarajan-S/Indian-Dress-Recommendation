@@ -21,3 +21,7 @@ The Personalized Dress Recommendation System is an application designed to sugge
 **Databases:** MongoDB
 
 **ML Libraries used:** OpenCV, dlib, Keras, Tensorflow, MTCNN, Scikit-learn, Pandas, Numpy
+
+
+Email: vijayjaga0007@gmail.com
+Linkedin : linkedin.com/in/vijayarajan-selvam-62b31225a/
